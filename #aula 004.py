@@ -1,0 +1,6 @@
+n=input('writte something: ')
+print('A palavra esta em Caplock: ',n.isupper())
+print('A palavra é númerica: ',n.isnumeric())
+print('A palavra esta em minuscula: ',n.islower())
+print ('A palavra e um numero decimal??',n.isdecimal())
+print ('E uma palavra??',n.isalpha())
