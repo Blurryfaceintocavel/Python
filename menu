@@ -1,0 +1,31 @@
+#Select your option
+
+def menu():
+    print("\n--- Menu ---")
+    print("1. Samsung")
+    print("2. Iphone")
+
+
+def menu1():
+    print("Executando Opção 1... Desconto aplicado ao Samsung")
+
+
+def menu2():
+    print("Executando Opção 2... Desconto aplicado ao Iphone")
+
+
+def main():
+    while True:
+        menu()
+        escolha = input("Escolha uma opção: ")
+
+        if escolha == '1':
+            menu1()
+        elif escolha == '2':
+            menu2()
+        else:
+            print("Nenhuma seleção informada")
+
+
+if __name__ == "__main__":
+    main()
